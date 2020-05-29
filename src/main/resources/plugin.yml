@@ -1,0 +1,8 @@
+name: MemeGuildPanel
+version: ${project.version}
+main: pl.memexurer.guildpanel.GuildPanelPlugin
+commands:
+  panel:
+    aliases: [permisje, gpanel, gp, p, uprawnienia]
+    description: Panel gildyjny.
+    usage: co?

@@ -1,0 +1,37 @@
+# Ultra szybko napisany plugin na panel.
+
+database:
+  ip: "127.0.0.1" # ip bazy danych
+  name: "database" # nazwa bazy danych
+  user: "root" # nazwa uzytkownika
+  password: "" # haslo
+  port: 3306 # porty
+
+permissions:
+  BEACON:
+    message: "&cNie posiadasz uprawnien do interakcji z bekonami!"
+    default: false # Podstawowe permisje, ustawiane przy dolaczeniu do gildii.
+  BLOCK_PLACE:
+    message: "&cNie posiadasz uprawnien do postawiania blokow!"
+    default: true
+  BLOCK_BREAK:
+    message: "&cNie posiadasz uprawnien do niszczenia blokow!"
+    default: true
+  TNT_PLACEMENT:
+    message: "&cNie posiadasz uprawnien do stawiania TNT!"
+    default: false
+  FLUID_PLACEMENT:
+    message: "&cNie posiadasz uprawnien do uzywania wiaderek!"
+    default: true
+  TELEPORTATION_USE:
+    message: "&cNie posiadasz uprawnien do uzywania komendy /tpaccept na terenie gildii!"
+    default: true
+  MEMBER_INVITE:
+    message: "&cNie posiadasz uprawnien do zapraszania ludzi!"
+    default: false
+  MEMBER_KICK:
+    message: "&cNie posiadasz uprawnien do wyrzucania ludzi z gildii!"
+    default: false
+  GUILD_PROLONG:
+    message: "&cNie posiadasz uprawnien do przedluzania waznosci gildii!"
+    default: false
